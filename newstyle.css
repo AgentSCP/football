@@ -1,0 +1,76 @@
+.example{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: 300px;
+    height: 200px;
+    border: 25px solid lightgreen;
+    padding: 20px;
+    overflow: auto;
+}
+
+.container{
+    /* margin-top: 300px; */
+    /* position: relative; */
+    /* border: 10px solid black; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(64, 0, 120);
+}
+
+.card{
+    max-width: 300px;
+    padding: 15px;
+    border: 1px solid #484a47;
+    border-radius: 4px;
+    color: #3c4c2f;
+    background-color: #e4cc9c;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.new{
+    background-color: #e04d4d;
+}
+
+.field{
+    position: relative;
+    background-color: #3c4c2f;
+    border: 10px solid black;
+    width: 1200px;
+    height: 650px;
+}
+
+.ball{
+    position: absolute;
+    left: 565px;
+    top: 290px;
+    background: url('./ball.png') no-repeat center center/ cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
